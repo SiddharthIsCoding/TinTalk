@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Quicksand:wght@300&display=swap');
+
+
+*
+{
+    margin:0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: #22272e;
+}
+
+#headtext
+{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10vh;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#formcontainer
+{
+    width: 70%;
+    height: 60vh;
+    background: #1c2128;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    padding:10px;
+    box-shadow: 0px 0px 3px black;
+}
+
+#formcontainer > form 
+{
+    margin: 20px;
+    width: 30%;
+    height: 80%;
+    padding: 10px;
+}
+
+#formcontainer > form > input
+{
+    width: 95%;
+    height:40px;
+    margin-top: 15px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid white !important;
+    font-size: 20px;
+    color: white;
+
+}
+
+#formcontainer > form > button
+{
+    margin-top: 15px;
+    width: 200px;
+    height: 40px;
+    background: rgb(55, 41, 244);
+    color:white;
+    font-size: 20px;
+    font-family: 'Quicksand',sans-serif;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* responsive css */
+
+@media only screen and (max-width:640px)
+{
+    #headtext
+    {
+        font-size: 30px;
+    }
+}
